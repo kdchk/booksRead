@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ConsoleApplication", "02_ConsoleApplication\02_ConsoleApplication.csproj", "{A0BDA0C2-B25D-4139-B496-386B8354A1BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root folder", "Root folder", "{70A1476E-6E21-4C0B-8E87-6ACAB81F4607}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_SimpleApp", "01_SimpleApp", "{DC4BA6D5-9670-419E-BE78-D9443B25BF82}"
+	ProjectSection(SolutionItems) = preProject
+		01_SimpleApp\README.md = 01_SimpleApp\README.md
+		01_SimpleApp\SimpleApp.cs = 01_SimpleApp\SimpleApp.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0BDA0C2-B25D-4139-B496-386B8354A1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BDA0C2-B25D-4139-B496-386B8354A1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BDA0C2-B25D-4139-B496-386B8354A1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BDA0C2-B25D-4139-B496-386B8354A1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
