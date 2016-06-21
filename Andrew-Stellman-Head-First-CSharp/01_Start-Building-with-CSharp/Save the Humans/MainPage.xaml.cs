@@ -25,6 +25,10 @@ namespace Save_the_Humans
     public sealed partial class MainPage : Page
     {
         Random random = new Random();
+        DispatcherTimer enemyTimer = new DispatcherTimer();
+        DispatcherTimer targetTimer = new DispatcherTimer();
+        bool humanCaptured = false;
+
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
@@ -49,9 +53,25 @@ namespace Save_the_Humans
         public MainPage()
         {
             this.InitializeComponent();
+
+            enemyTimer.Tick += EnemyTimer_Tick;
+            enemyTimer.Interval = TimeSpan.FromSeconds(2);
+            targetTimer.Tick += TargetTimer_Tick;
+            targetTimer.Interval = TimeSpan.FromSeconds(.1);
+
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
+        }
+
+        private void TargetTimer_Tick(object sender, object e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void EnemyTimer_Tick(object sender, object e)
+        {
+            throw new NotImplementedException();
         }
 
         /// <summary>
