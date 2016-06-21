@@ -78,7 +78,6 @@
                 <Ellipse Fill="White" Height="10" Stroke="Black" Width="10"/>
                 <Rectangle Fill="White" Height="25" Stroke="Black" Width="10"/>
             </StackPanel>
-            <TextBlock x:Name="gameOverText" Canvas.Left="379" TextWrapping="Wrap" Text="Game Over" Canvas.Top="120" FontFamily="Arial Black" FontSize="100" FontWeight="Bold" FontStyle="Italic"  HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
             <Rectangle x:Name="target" Canvas.Left="1017.893" Stroke="Black" Canvas.Top="119.401" Width="50" Height="50" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
                 <Rectangle.RenderTransform>
                     <CompositeTransform Rotation="45"/>
@@ -91,5 +90,6 @@
                 </Rectangle.Fill>
             </Rectangle>
         </Canvas>
+        <TextBlock x:Name="gameOverText" TextWrapping="Wrap" Text="Game Over" FontFamily="Arial Black" FontSize="100" FontWeight="Bold" FontStyle="Italic" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
     </Grid>
 </Page>
