@@ -71,8 +71,12 @@ namespace Save_the_Humans
 
         private void EnemyTimer_Tick(object sender, object e)
         {
-            throw new NotImplementedException();
+            progressBar.Value += 1;
+            if (progressBar.Value >= progressBar.Maximum)
+                EndTheGame();
         }
+
+       
 
         /// <summary>
         /// Populates the page with content passed during navigation. Any saved state is also
