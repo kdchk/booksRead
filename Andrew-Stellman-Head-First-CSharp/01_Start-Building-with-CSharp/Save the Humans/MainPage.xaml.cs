@@ -66,14 +66,14 @@ namespace Save_the_Humans
 
         private void TargetTimer_Tick(object sender, object e)
         {
-            throw new NotImplementedException();
+            progressBar.Value += 1;
+            if (progressBar.Value >= progressBar.Maximum)
+                EndTheGame();
         }
 
         private void EnemyTimer_Tick(object sender, object e)
         {
-            progressBar.Value += 1;
-            if (progressBar.Value >= progressBar.Maximum)
-                EndTheGame();
+            
         }
 
         private void EndTheGame()
