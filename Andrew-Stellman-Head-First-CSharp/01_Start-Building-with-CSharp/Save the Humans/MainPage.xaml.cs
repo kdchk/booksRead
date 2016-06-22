@@ -201,5 +201,16 @@ namespace Save_the_Humans
             human.IsHitTestVisible = true;
 
         }
+
+        private void grid_PointerMoved(object sender, PointerRoutedEventArgs e)
+        {
+
+        }
+
+        private void grid_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            if (humanCaptured)
+                EndTheGame();
+        }
     }
 }

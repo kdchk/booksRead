@@ -43,7 +43,7 @@
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid Grid.ColumnSpan="3" Margin="0,0,0.429,0">
+        <Grid x:Name="grid" Grid.ColumnSpan="3" Margin="0,0,0.429,0" PointerMoved="grid_PointerMoved" PointerExited="grid_PointerExited">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="*"/>
