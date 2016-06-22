@@ -213,8 +213,8 @@ namespace Save_the_Humans
         {
             Point pointerPosition = e.GetCurrentPoint(null).Position;
             Point relativePosition = grid.TransformToVisual(playArea).TransformPoint(pointerPosition);
-            if ((Math.Abs(relativePosition.X - Canvas.GetLeft(human)) > human.ActualWidth * 3)) ;
-                || (Math.Abs(relativePosition.Y - Canvas.GetTop(human)) > human.ActualHeight * 3);
+            if ((Math.Abs(relativePosition.X - Canvas.GetLeft(human)) > human.ActualWidth * 3) 
+                || (Math.Abs(relativePosition.Y - Canvas.GetTop(human)) > human.ActualHeight * 3))
             {
                 humanCaptured = false;
                 human.IsHitTestVisible = true;
