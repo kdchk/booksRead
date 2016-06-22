@@ -73,7 +73,7 @@ namespace Save_the_Humans
 
         private void EnemyTimer_Tick(object sender, object e)
         {
-            
+            AddEnemy();
         }
 
         private void EndTheGame()
