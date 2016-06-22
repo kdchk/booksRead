@@ -58,7 +58,6 @@ namespace Save_the_Humans
             enemyTimer.Interval = TimeSpan.FromSeconds(2);
             targetTimer.Tick += TargetTimer_Tick;
             targetTimer.Interval = TimeSpan.FromSeconds(.1);
-
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
@@ -180,6 +179,15 @@ namespace Save_the_Humans
             Storyboard.SetTargetProperty(animation, propertyToAnimate);
             storyboard.Children.Add(animation);
             storyboard.Begin();
+        }
+
+        private void human_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            if (enemyTimer.IsEnabled)
+            {
+                humanCaptured = true;
+                human.IsHitTestVisible = false;
+            }
         }
     }
 }

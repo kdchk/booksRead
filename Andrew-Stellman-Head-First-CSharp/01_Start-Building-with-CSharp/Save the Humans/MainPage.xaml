@@ -58,23 +58,23 @@
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
         <StackPanel Grid.Column="2" Orientation="Vertical" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock      x:Name="textBlock" 
+            <TextBlock x:Name="textBlock" 
         		TextWrapping="Wrap" Text="Avoid These" Style="{StaticResource SubheaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <ContentControl Content="ContentControl" Template="{StaticResource EnemyTemplate}"/>
         </StackPanel>
-        <Button         x:Name="startButton" Content="Start!" HorizontalAlignment="Center" 
-                        Grid.Row="2" VerticalAlignment="Center" Click="startButton_Click"/>
+        <Button x:Name="startButton" Content="Start!" HorizontalAlignment="Center" 
+                Grid.Row="2" VerticalAlignment="Center" Click="startButton_Click"/>
         <ProgressBar x:Name="progressBar"    Grid.Column="1" 
-                        Grid.Row="2" Height="20"/>
+                     Grid.Row="2" Height="20"/>
         <Canvas x:Name="playArea" 
-                        Grid.Row="1" Grid.ColumnSpan="3">
+                Grid.Row="1" Grid.ColumnSpan="3">
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF404ED6" Offset="0.815"/>
                     <GradientStop Color="#FF31B05E" Offset="0.413"/>
                 </LinearGradientBrush>
             </Canvas.Background>
-            <StackPanel x:Name="human" Orientation="Vertical" Canvas.Left="0" Canvas.Top="0">
+            <StackPanel x:Name="human" Orientation="Vertical" Canvas.Left="0" Canvas.Top="0" PointerPressed="human_PointerPressed">
                 <Ellipse Fill="White" Height="10" Stroke="Black" Width="10"/>
                 <Rectangle Fill="White" Height="25" Stroke="Black" Width="10"/>
             </StackPanel>
