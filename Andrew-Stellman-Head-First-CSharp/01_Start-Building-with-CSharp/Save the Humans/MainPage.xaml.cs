@@ -76,7 +76,19 @@ namespace Save_the_Humans
                 EndTheGame();
         }
 
-       
+        private void EndTheGame()
+        {
+            if (!playArea.Children.Contains(gameOverText))
+            {
+                enemyTimer.Stop();
+                targetTimer.Stop();
+                humanCaptured = false;
+                startButton.Visibility = Visibility.Visible;
+                playArea.Children.Add(gameOverText);
+            }
+        }
+
+
 
         /// <summary>
         /// Populates the page with content passed during navigation. Any saved state is also
