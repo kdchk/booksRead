@@ -78,7 +78,7 @@
                 <Ellipse Fill="White" Height="10" Stroke="Black" Width="10"/>
                 <Rectangle Fill="White" Height="25" Stroke="Black" Width="10"/>
             </StackPanel>
-            <Rectangle x:Name="target" Canvas.Left="1017.893" Stroke="Black" Canvas.Top="119.401" Width="50" Height="50" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle x:Name="target" Canvas.Left="1017.893" Stroke="Black" Canvas.Top="119.401" Width="50" Height="50" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" PointerEntered="target_PointerEntered">
                 <Rectangle.RenderTransform>
                     <CompositeTransform Rotation="45"/>
                 </Rectangle.RenderTransform>

@@ -189,5 +189,17 @@ namespace Save_the_Humans
                 human.IsHitTestVisible = false;
             }
         }
+
+        private void target_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            progressBar.Value = 0;
+            Canvas.SetLeft(target, random.Next(100, (int)playArea.ActualWidth - 100));
+            Canvas.SetTop(target, random.Next(100, (int)playArea.ActualHeight - 100));
+            Canvas.SetLeft(human, random.Next(100, (int)playArea.ActualWidth - 100));
+            Canvas.SetTop(human, random.Next(100, (int)playArea.ActualHeight - 100));
+            humanCaptured = false;
+            human.IsHitTestVisible = true;
+
+        }
     }
 }
