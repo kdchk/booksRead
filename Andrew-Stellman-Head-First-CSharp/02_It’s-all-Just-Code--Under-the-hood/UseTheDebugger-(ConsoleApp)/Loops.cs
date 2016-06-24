@@ -11,7 +11,20 @@ namespace UseTheDebugger__ConsoleApp_
         public static void Looping()
         {
             Console.WriteLine("Looping");
-            
+            WhileLoop();
+
+        }
+
+        private static void WhileLoop()
+        {
+            int x = 12;
+            while (x > 5)
+            {
+                //x = x - 3;
+                //or
+                x -= 3;
+                Console.WriteLine(x);
+            }
         }
     }
 }
