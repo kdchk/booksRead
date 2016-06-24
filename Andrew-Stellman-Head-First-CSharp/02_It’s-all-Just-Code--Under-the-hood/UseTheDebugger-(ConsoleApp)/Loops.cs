@@ -10,7 +10,6 @@ namespace UseTheDebugger__ConsoleApp_
     {
         public static void Looping()
         {
-            Console.WriteLine("------------");
             Console.WriteLine("Looping");
             WhileLoop();
             ForLoop();

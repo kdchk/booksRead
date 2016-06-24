@@ -10,7 +10,7 @@ namespace UseTheDebugger__ConsoleApp_
     {
         static void Main(string[] args)
         {
-            //LearnToDebug();
+            LearnToDebug();
             Loops.Looping();
 
             //--------Delay--------
@@ -19,6 +19,8 @@ namespace UseTheDebugger__ConsoleApp_
 
         private static void LearnToDebug()
         {
+            Console.WriteLine("--Learn to Debug--");
+
             int number = 15; //15        
             number = number + 10; //25
             number = 36 * 10; //360
@@ -41,6 +43,7 @@ namespace UseTheDebugger__ConsoleApp_
             yesNo = !anotherBool;
             Console.WriteLine(yesNo);//false
             Console.WriteLine(anotherBool);//true
+            Console.WriteLine("------------");
         }
     }
 }
