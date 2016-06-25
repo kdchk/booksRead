@@ -12,6 +12,7 @@ namespace UseTheDebugger__ConsoleApp_
         {
             LearnToDebug();
             Loops.Looping();
+            if_else_statements.IfElse();
 
             //--------Delay--------
             Console.ReadKey();
