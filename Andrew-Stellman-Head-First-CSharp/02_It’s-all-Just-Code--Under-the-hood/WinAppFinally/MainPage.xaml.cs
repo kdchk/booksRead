@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
+// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace WinAppFinally
 {
@@ -25,58 +25,6 @@ namespace WinAppFinally
         public MainPage()
         {
             this.InitializeComponent();
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            string name = "Quentin";
-            int x = 3;
-            x *= 17;
-            double d = Math.PI / 2;
-            myLabel.Text = "name is " + name
-                            + "\nx is " + x
-                            + "\nd is " + d;
-        }
-
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-            int x = 10;
-            if (x == 10)
-            {
-                myLabel.Text = "x must be 10";
-            }
-            else
-            {
-                myLabel.Text = "x isn't 10";
-            }
-
-        }
-
-        private void button3_Click(object sender, RoutedEventArgs e)
-        {
-            int someValue = 3;
-            string name = "Bobbo Jr.";
-            if ((someValue == 3) && (name == "Joe"))
-            {
-                myLabel.Text = "x is 3 and name is Joe";
-            }
-            myLabel.Text = "this line runs no matter what";
-        }
-
-        private void button4_Click(object sender, RoutedEventArgs e)
-        {
-            int count = 0;
-
-            while (count < 10)
-            {
-                count += 1;
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                count -= 1;
-            }
-
-            myLabel.Text = "The answer is " + count;
         }
     }
 }
