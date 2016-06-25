@@ -29,6 +29,14 @@ namespace PracticeUsingIfElse
 
         private void changeText_Click(object sender, RoutedEventArgs e)
         {
+                //Use:
+            //MyMethod();   //OK
+                //or
+            BookMethod();   //OK
+        }
+
+        private void MyMethod()
+        {
             if (enableCheckBox.IsChecked == true)
             {
                 if (labelToChange.HorizontalAlignment == HorizontalAlignment.Right)
@@ -49,5 +57,26 @@ namespace PracticeUsingIfElse
             }
         }
 
+        private void BookMethod()
+        {
+            if (enableCheckBox.IsChecked == true)
+            {
+                if (labelToChange.Text == "Right")
+                {
+                    labelToChange.Text = "Left";
+                    labelToChange.HorizontalAlignment = HorizontalAlignment.Left;
+                }
+                else
+                {
+                    labelToChange.Text = "Right";
+                    labelToChange.HorizontalAlignment = HorizontalAlignment.Right;
+                }
+            }
+            else
+            {
+                labelToChange.Text = "Text changing is disabled";
+                labelToChange.HorizontalAlignment = HorizontalAlignment.Center;
+            }
+        }
     }
 }
