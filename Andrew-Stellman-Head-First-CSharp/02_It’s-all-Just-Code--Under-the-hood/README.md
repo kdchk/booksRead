@@ -8,7 +8,7 @@
 ![*.png file](z_02_pics/MagnetsOnFridge.png?raw=true "screenshoot")
 #####PracticeUsingIfElse
 ![*.png file](z_02_pics/PracticeUsingIfElse.png?raw=true "screenshoot")
-#####UseTheDebugger-(ConsoleApp?raw=true "screenshoot")
+#####UseTheDebugger-(ConsoleApp)
 ![*.png file](z_02_pics/UseTheDebugger-(ConsoleApp?raw=true "screenshoot").png?raw=true "screenshoot")
 #####WhatsInside
 ![*.png file](z_02_pics/WhatsInside.png?raw=true "screenshoot")
