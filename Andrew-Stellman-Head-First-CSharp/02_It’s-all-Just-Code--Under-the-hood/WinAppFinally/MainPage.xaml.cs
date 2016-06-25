@@ -40,8 +40,8 @@ namespace WinAppFinally
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            int x =5;
-            if (x==10)
+            int x = 10;
+            if (x == 10)
             {
                 myLabel.Text = "x must be 10";
             }
@@ -56,7 +56,7 @@ namespace WinAppFinally
         {
             int someValue = 3;
             string name = "Bobbo Jr.";
-            if ((someValue==3)&&(name=="Joe"))
+            if ((someValue == 3) && (name == "Joe"))
             {
                 myLabel.Text = "x is 3 and name is Joe";
             }
@@ -65,7 +65,18 @@ namespace WinAppFinally
 
         private void button4_Click(object sender, RoutedEventArgs e)
         {
+            int count = 0;
 
+            while (count < 10)
+            {
+                count += 1;
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                count -= 1;
+            }
+
+            myLabel.Text = "The answer is " + count;
         }
     }
 }
