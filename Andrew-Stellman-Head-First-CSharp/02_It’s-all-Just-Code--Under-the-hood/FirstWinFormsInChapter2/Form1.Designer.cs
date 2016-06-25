@@ -74,7 +74,7 @@
             this.Controls.Add(this.enableCheckbox);
             this.Controls.Add(this.changeText);
             this.Name = "Form1";
-            this.Text = "My Desctop App";
+            this.Text = "My Desktop App";
             this.ResumeLayout(false);
             this.PerformLayout();
 
