@@ -21,13 +21,13 @@ namespace BrightWinApp
         {
             while (Visible)
             {
-                for (int c = 0; c < 254; c++)
+                for (int c = 0; c < 254 && Visible; c++)
                 {
                     this.BackColor = Color.FromArgb(c, 255 - c, c);
                     Application.DoEvents();
                     System.Threading.Thread.Sleep(3);
                 }
-                for (int c = 254; c > 0; c--)
+                for (int c = 254; c >= 0 && Visible; c--)
                 {
                     this.BackColor = Color.FromArgb(c, 255 - c, c);
                     Application.DoEvents();
