@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetsOnFridge", "MagnetsO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeUsingIfElse", "PracticeUsingIfElse\PracticeUsingIfElse.csproj", "{C5F8DA18-1DFB-436A-AC56-42E568491052}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWinFormsInChapter2", "FirstWinFormsInChapter2\FirstWinFormsInChapter2.csproj", "{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,22 @@ Global
 		{C5F8DA18-1DFB-436A-AC56-42E568491052}.Release|x86.ActiveCfg = Release|x86
 		{C5F8DA18-1DFB-436A-AC56-42E568491052}.Release|x86.Build.0 = Release|x86
 		{C5F8DA18-1DFB-436A-AC56-42E568491052}.Release|x86.Deploy.0 = Release|x86
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Debug|ARM.Build.0 = Debug|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Debug|x64.Build.0 = Debug|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Debug|x86.Build.0 = Debug|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Release|ARM.ActiveCfg = Release|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Release|ARM.Build.0 = Release|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Release|x64.ActiveCfg = Release|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Release|x64.Build.0 = Release|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Release|x86.ActiveCfg = Release|Any CPU
+		{205F222D-CFD3-45FA-AEC8-82C9246FEBDA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
