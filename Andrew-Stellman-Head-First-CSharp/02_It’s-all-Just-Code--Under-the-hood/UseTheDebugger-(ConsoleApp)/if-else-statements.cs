@@ -17,9 +17,9 @@ namespace UseTheDebugger__ConsoleApp_
 
         private static void TryIfElse()
         {
-            string message = "";
+            string message = "Enter some int type value: ";
             int someValue = 0;
-            Console.Write("Enter some int type value: ");
+            Console.Write(message);
             someValue = Int32.Parse(Console.ReadLine());
             if (someValue == 24)
             {
