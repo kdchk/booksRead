@@ -16,5 +16,10 @@ namespace FirstWinFormsInChapter2
         {
             InitializeComponent();
         }
+
+        private void changeText_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
