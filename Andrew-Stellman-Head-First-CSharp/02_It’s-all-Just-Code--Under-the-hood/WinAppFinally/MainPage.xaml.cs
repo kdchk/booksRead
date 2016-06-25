@@ -40,7 +40,7 @@ namespace WinAppFinally
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            int x = 5;
+            int x =5;
             if (x==10)
             {
                 myLabel.Text = "x must be 10";
@@ -54,7 +54,13 @@ namespace WinAppFinally
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-
+            int someValue = 3;
+            string name = "Bobbo Jr.";
+            if ((someValue==3)&&(name=="Joe"))
+            {
+                myLabel.Text = "x is 3 and name is Joe";
+            }
+            myLabel.Text = "this line runs no matter what";
         }
 
         private void button4_Click(object sender, RoutedEventArgs e)
