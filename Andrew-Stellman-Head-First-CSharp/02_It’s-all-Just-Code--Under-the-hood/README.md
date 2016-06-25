@@ -9,7 +9,7 @@
 #####PracticeUsingIfElse
 ![*.png file](z_02_pics/PracticeUsingIfElse.png?raw=true "screenshoot")
 #####UseTheDebugger-(ConsoleApp)
-![*.png file](z_02_pics/UseTheDebugger-(ConsoleApp?raw=true "screenshoot").png?raw=true "screenshoot")
+![*.png file](z_02_pics/UseTheDebugger-(ConsoleApp).png?raw=true "screenshoot")
 #####WhatsInside
 ![*.png file](z_02_pics/WhatsInside.png?raw=true "screenshoot")
 #####WinAppFinally
