@@ -29,7 +29,13 @@ namespace WinAppFinally
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-
+            string name = "Quentin";
+            int x = 3;
+            x *= 17;
+            double d = Math.PI / 2;
+            myLabel.Text = "name is " + name
+                            + "\nx is " + x
+                            + "\nd is " + d;
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
