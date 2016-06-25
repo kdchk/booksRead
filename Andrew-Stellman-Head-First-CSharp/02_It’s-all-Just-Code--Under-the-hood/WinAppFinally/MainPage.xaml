@@ -18,6 +18,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Button x:Name="button1" Content="Show a message" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Click="button1_Click"/>
+        <Button x:Name="button2" Content="If/else" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Click="button1_Click"/>
 
     </Grid>
 </Page>
