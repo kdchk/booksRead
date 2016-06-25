@@ -40,6 +40,15 @@ namespace WinAppFinally
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
+            int x = 5;
+            if (x==10)
+            {
+                myLabel.Text = "x must be 10";
+            }
+            else
+            {
+                myLabel.Text = "x isn't 10";
+            }
 
         }
 
