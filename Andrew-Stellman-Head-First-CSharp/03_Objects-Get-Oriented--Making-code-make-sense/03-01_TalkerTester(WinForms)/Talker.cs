@@ -17,6 +17,7 @@ namespace _03_01_TalkerTester_WinForms_
             {
                 finalString += thingToSay + "\n";
             }
+
             MessageBox.Show(finalString);
             return finalString.Length;
         }
