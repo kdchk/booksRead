@@ -54,5 +54,48 @@ namespace _03_02_FunWithBobAndJoe_WF_
             bank += bob.GiveCash(5);
             UpdateForm();
         }
+
+        private void joeGivesToBob_Click(object sender, EventArgs e)
+        {
+            //MyJoeToBobMethod();//ok
+            bob.ReceiveCash(joe.GiveCash(10));
+            UpdateForm();
+
+        }
+
+
+        private void bobGivesToJoe_Click(object sender, EventArgs e)
+        {
+            //MyBobToJoeMethod();//ok
+
+            joe.ReceiveCash(bob.GiveCash(5));
+            UpdateForm();
+        }
+
+        //private void MyJoeToBobMethod()
+        //{
+        //    if (joe.Cash >= 10)
+        //    {
+        //        joe.Cash -= bob.ReceiveCash(10);
+        //        UpdateForm();
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("I have not enough money", joe.Name + " says...");
+        //    }
+        //}
+
+        //private void MyBobToJoeMethod()
+        //{
+        //    if (bob.Cash >= 10)
+        //    {
+        //        bob.Cash -= joe.ReceiveCash(10);
+        //        UpdateForm();
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("I have not enough money", bob.Name + " says...");
+        //    }
+        //}
     }
 }
