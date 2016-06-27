@@ -21,7 +21,7 @@ namespace _03_02_FunWithBobAndJoe_WF_
             }
             else
             {
-                MessageBox.Show("У меня не хватает денег " + amount, Name + " говорит...");
+                MessageBox.Show("I have not enough money, $" + amount, Name + " говорит...");
                 return 0;
             }
         }
@@ -35,7 +35,7 @@ namespace _03_02_FunWithBobAndJoe_WF_
             }
             else
             {
-                MessageBox.Show(amount+" мне нужно", Name + " говорит...");
+                MessageBox.Show(amount + " I need", Name + " says...");
                 return 0;
             }
         }

@@ -19,13 +19,12 @@ namespace _03_02_FunWithBobAndJoe_WF_
         public Form1()
         {
             InitializeComponent();
-            joe = new Guy();
-            joe.Name="Joe";
-            joe.Cash = 50;
+            joe = new Guy() { Cash = 50, Name = "Joe" };
 
             bob = new Guy();
             bob.Name = "Bob";
             bob.Cash = 100;
+
             UpdateForm();
         }
 
@@ -45,7 +44,7 @@ namespace _03_02_FunWithBobAndJoe_WF_
             }
             else
             {
-                MessageBox.Show("В банке нет денег");
+                MessageBox.Show("There is no money in the bank");
             }
 
         }
