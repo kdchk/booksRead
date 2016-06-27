@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-01_TalkerTester(WinForms)", "03-01_TalkerTester(WinForms)\03-01_TalkerTester(WinForms).csproj", "{75A5A89D-58B7-42FE-86F6-F77BBE229AC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-02_FunWithBobAndJoe(WF)", "03-02_FunWithBobAndJoe(WF)\03-02_FunWithBobAndJoe(WF).csproj", "{22E5A536-FB92-495F-BB1C-F99E85742519}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{75A5A89D-58B7-42FE-86F6-F77BBE229AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75A5A89D-58B7-42FE-86F6-F77BBE229AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75A5A89D-58B7-42FE-86F6-F77BBE229AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E5A536-FB92-495F-BB1C-F99E85742519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E5A536-FB92-495F-BB1C-F99E85742519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E5A536-FB92-495F-BB1C-F99E85742519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E5A536-FB92-495F-BB1C-F99E85742519}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
