@@ -21,23 +21,52 @@ namespace _04_01_MileageCalculator
         public Form1()
         {
             InitializeComponent();
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            startingMileage = (int)numericUpDown1.Value;
-            endingMileage = (int)numericUpDown2.Value;
+            InitialiseNumericUpDown();
+
+            bool numericCondition = CheckNumericUpDownValues();
+
+            if (numericCondition == true)
+            {
+                amountOwed = milesTraveled * reimburseRate;
+                label4.Text = "$" + amountOwed;
+            }
+        }
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            InitialiseNumericUpDown();
+
+            bool numericCondition = CheckNumericUpDownValues();
+
+            if (numericCondition == true)
+            {
+                MessageBox.Show(milesTraveled + " miles", "Miles Traveled");
+            }
+        }
+
+        private bool CheckNumericUpDownValues()
+        {
             if (startingMileage <= endingMileage)
             {
                 milesTraveled = endingMileage - startingMileage;
-                amountOwed = milesTraveled * reimburseRate;
-                label4.Text = "$" + amountOwed;
-
+                return true;
             }
             else
-                MessageBox.Show("Начальный пробег не может превышать конечный!", "Cannot Calculate Mileage");
+            {
+                MessageBox.Show("Starting Mileage can't be greater than Ending Mileage!", "Cannot Calculate Mileage");
+                return false;
+            }
+        }
 
+        private void InitialiseNumericUpDown()
+        {
+            startingMileage = (int)numericUpDown1.Value;
+            endingMileage = (int)numericUpDown2.Value;
         }
     }
 }
