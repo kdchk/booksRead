@@ -21,5 +21,10 @@ namespace _04_02_Swap_Elephant
         {
             MessageBox.Show($"{whoSaidIt.Name} says: {message}");
         }
+
+        public void SpeakTo(Elephant whoTotalkTo, string message)
+        {
+            whoTotalkTo.TellMe(message, this);
+        }
     }
 }

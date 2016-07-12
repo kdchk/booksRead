@@ -32,7 +32,8 @@ namespace _04_02_Swap_Elephant
 
         private void button4_Click(object sender, EventArgs e)
         {
-            lloyd.TellMe("Hi!", lucinda);
+            //lloyd.TellMe("Hi!", lucinda);
+            lloyd.SpeakTo(lucinda, "Hello");
         }
 
         private void button3_Click(object sender, EventArgs e)
