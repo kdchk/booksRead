@@ -15,12 +15,65 @@ namespace _04_04_Islands_Arrays
         public Form1()
         {
             InitializeComponent();
+            MyRangeIslands();
+            //BookRangeIslands();
         }
 
-        public void IslandsArrays()
+        public void MyRangeIslands()
         {
             int y = 0;
+            string result = "";
+            int refNum;
 
+            string[] islands = new string[4];
+            islands[0] = "Bermuda";
+            islands[1] = "Fiji";
+            islands[2] = "Azores";
+            islands[3] = "Cozumel";
+
+            int[] index = new int[4];
+            index[0] = 1;
+            index[1] = 3;
+            index[2] = 0;
+            index[3] = 2;
+
+            while (y < 4)
+            {
+                refNum = index[y];
+                result += "\nisland = ";
+                result += islands[refNum];
+                y = y + 1;
+            }
+            MessageBox.Show(result);
+
+        }
+
+        public void BookRangeIslands()
+        {
+            string result = "";
+
+            int[] index = new int[4];
+            index[0] = 1;
+            index[1] = 3;
+            index[2] = 0;
+            index[3] = 2;
+
+            string[] islands = new string[4];
+            islands[0] = "Bermuda";
+            islands[1] = "Fiji";
+            islands[2] = "Azores";
+            islands[3] = "Cozumel";
+
+            int y = 0;
+            int refNum;
+            while (y < 4)
+            {
+                refNum = index[y];
+                result += "\nisland = ";
+                result += islands[refNum];
+                y = y + 1;
+            }
+            MessageBox.Show(result);
         }
     }
 }
