@@ -23,12 +23,16 @@ namespace _04_02_Swap_Elephant
         private void button1_Click(object sender, EventArgs e)
         {
             lloyd.WhoAmI();
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             lucinda.WhoAmI();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            lloyd.TellMe("Hi!", lucinda);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -38,5 +42,6 @@ namespace _04_02_Swap_Elephant
             lloyd = swapTemp;
             MessageBox.Show("Objects swapped", "Swap!");
         }
+
     }
 }

@@ -16,5 +16,10 @@ namespace _04_02_Swap_Elephant
         {
             MessageBox.Show($"My ears are {EarSize} tall", $"{Name} says...");
         }
+
+        public void TellMe(string message, Elephant whoSaidIt)
+        {
+            MessageBox.Show($"{whoSaidIt.Name} says: {message}");
+        }
     }
 }
