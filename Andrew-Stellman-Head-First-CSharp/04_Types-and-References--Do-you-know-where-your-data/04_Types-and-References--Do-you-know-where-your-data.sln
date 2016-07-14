@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-04_Islands-Arrays", "04-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-05_Pool-Puzzle", "04-05_Pool-Puzzle\04-05_Pool-Puzzle.csproj", "{53CA31D2-3977-4F4B-8DFF-55A8EF1A19B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-06_Hit-the-Keys", "04-06_Hit-the-Keys\04-06_Hit-the-Keys.csproj", "{DD6CB6C9-CBCC-467B-86DE-DF9BA0138A6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{53CA31D2-3977-4F4B-8DFF-55A8EF1A19B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53CA31D2-3977-4F4B-8DFF-55A8EF1A19B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53CA31D2-3977-4F4B-8DFF-55A8EF1A19B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6CB6C9-CBCC-467B-86DE-DF9BA0138A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6CB6C9-CBCC-467B-86DE-DF9BA0138A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6CB6C9-CBCC-467B-86DE-DF9BA0138A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6CB6C9-CBCC-467B-86DE-DF9BA0138A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
