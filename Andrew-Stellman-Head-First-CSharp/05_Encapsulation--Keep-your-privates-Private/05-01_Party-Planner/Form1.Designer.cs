@@ -80,7 +80,7 @@
             this.fancyBox.TabIndex = 2;
             this.fancyBox.Text = "Fancy Decorations";
             this.fancyBox.UseVisualStyleBackColor = true;
-            this.fancyBox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.fancyBox.CheckedChanged += new System.EventHandler(this.fancyBox_CheckedChanged);
             // 
             // healthyBox
             // 
@@ -91,7 +91,7 @@
             this.healthyBox.TabIndex = 3;
             this.healthyBox.Text = "Healthy Decorations";
             this.healthyBox.UseVisualStyleBackColor = true;
-            this.healthyBox.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.healthyBox.CheckedChanged += new System.EventHandler(this.healthyBox_CheckedChanged);
             // 
             // label2
             // 

@@ -34,13 +34,13 @@ namespace _05_01_Party_Planner
             DisplayDinnerPartyCost();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void fancyBox_CheckedChanged(object sender, EventArgs e)
         {
             dinnerParty.CalculateCostOfDecorations(fancyBox.Checked);
             DisplayDinnerPartyCost();
         }
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        private void healthyBox_CheckedChanged(object sender, EventArgs e)
         {
             dinnerParty.SetHealthyOption(healthyBox.Checked);
             DisplayDinnerPartyCost();

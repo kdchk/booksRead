@@ -15,17 +15,6 @@ namespace _05_01_Party_Planner
 
         public decimal CalculateCost(bool healthyOption)
         {
-            //decimal totalCost = 0;
-
-            //if (healthyOption == true)
-            //{
-            //    totalCost = (NumberOfPeople * 25M + CostOfBeveragesPerPerson + CostOfDecorations) * 0.95M;
-            //}
-            //else
-            //{
-            //    totalCost = NumberOfPeople * 25M + CostOfBeveragesPerPerson + CostOfDecorations;
-            //}
-            //return totalCost;
             decimal totalCost = CostOfDecorations + ((CostOfBeveragesPerPerson + CostOfFoodPerPerson) * NumberOfPeople);
             if (healthyOption)
             {
