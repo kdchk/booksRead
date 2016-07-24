@@ -87,9 +87,9 @@
             this.healthyBox.AutoSize = true;
             this.healthyBox.Location = new System.Drawing.Point(12, 75);
             this.healthyBox.Name = "healthyBox";
-            this.healthyBox.Size = new System.Drawing.Size(122, 17);
+            this.healthyBox.Size = new System.Drawing.Size(101, 17);
             this.healthyBox.TabIndex = 3;
-            this.healthyBox.Text = "Healthy Decorations";
+            this.healthyBox.Text = "Healthy Options";
             this.healthyBox.UseVisualStyleBackColor = true;
             this.healthyBox.CheckedChanged += new System.EventHandler(this.healthyBox_CheckedChanged);
             // 
