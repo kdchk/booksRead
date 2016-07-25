@@ -17,23 +17,39 @@ namespace _05_03_Party_Planner_2._0
         public Form1()
         {
             InitializeComponent();
+
+            dinnerParty = new DinnerParty((int)numericUpDown1.Value, healthyBox.Checked, fancyBox.Checked);
+            DisplayDinnerPartyCost();
+
+            birthdayParty = new BirthdayParty((int)numberBirthday.Value, fancyBirthday.Checked, cakeWriting.Text);
+            DisplayDinnerPartyCost();
         }
 
-        #region Dinner Party Tab controls
+        #region DinnerParty Tab controls
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-
+            dinnerParty.NumberOfPeople = (int)numericUpDown1.Value;
+            DisplayDinnerPartyCost();
         }
 
         private void fancyBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            dinnerParty.FancyDecorations = fancyBox.Checked;
+            DisplayDinnerPartyCost();
         }
 
         private void healthyBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            dinnerParty.HealthyOption = healthyBox.Checked;
+            DisplayDinnerPartyCost();
         }
+
+        private void DisplayDinnerPartyCost()
+        {
+            decimal Cost = dinnerParty.Cost;
+            costLabel.Text = Cost.ToString("f2");
+        }
+
         #endregion
 
 

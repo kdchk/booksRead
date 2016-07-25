@@ -8,12 +8,17 @@ namespace _05_03_Party_Planner_2._0
 {
     class DinnerParty
     {
-        const int CostOfFoodPerPerson = 25;
+        public const int CostOfFoodPerPerson = 25;
         public int NumberOfPeople { get; set; }
         public bool FancyDecorations { get; set; }
         public bool HealthyOption { get; set; }
 
-        public DinnerParty(int numberOfPeople, bool healthyOption, bool fancyDecorations) { }
+        public DinnerParty(int numberOfPeople, bool healthyOption, bool fancyDecorations)
+        {
+            NumberOfPeople = numberOfPeople;
+            FancyDecorations = fancyDecorations;
+            HealthyOption = healthyOption;
+        }
 
         private decimal CalculateCostOfDecorations()
         {
