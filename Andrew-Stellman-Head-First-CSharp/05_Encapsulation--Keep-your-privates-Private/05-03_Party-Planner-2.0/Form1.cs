@@ -22,7 +22,7 @@ namespace _05_03_Party_Planner_2._0
             DisplayDinnerPartyCost();
 
             birthdayParty = new BirthdayParty((int)numberBirthday.Value, fancyBirthday.Checked, cakeWriting.Text);
-            DisplayDinnerPartyCost();
+            DisplayBirthdayPartyCost();
         }
 
         #region DinnerParty Tab controls
@@ -50,8 +50,33 @@ namespace _05_03_Party_Planner_2._0
             costLabel.Text = Cost.ToString("f2");
         }
 
+
         #endregion
+        #region BirthdayParty Tab controls
+        private void numberBirthday_ValueChanged(object sender, EventArgs e)
+        {
+            birthdayParty.NumberOfPeople = (int)numberBirthday.Value;
+            DisplayBirthdayPartyCost();
+        }
 
+        private void fancyBirthday_CheckedChanged(object sender, EventArgs e)
+        {
+            birthdayParty.FancyDecorations = fancyBirthday.Checked;
+            DisplayBirthdayPartyCost();
+        }
 
+        private void cakeWriting_TextChanged(object sender, EventArgs e)
+        {
+            birthdayParty.CakeWriting = cakeWriting.Text;
+            DisplayBirthdayPartyCost();
+        }
+
+        private void DisplayBirthdayPartyCost()
+        {
+            tooLongLabel.Visible = birthdayParty.CakeWritingTooLong;
+            decimal cost = birthdayParty.Cost;
+            birthdayCost.Text = cost.ToString("f2");
+        }
+        #endregion
     }
 }
