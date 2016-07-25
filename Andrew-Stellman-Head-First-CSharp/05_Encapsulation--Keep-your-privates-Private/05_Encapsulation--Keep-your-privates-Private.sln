@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-03_Party-Planner-2.0", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-04_Pool-Puzzle", "05-04_Pool-Puzzle\05-04_Pool-Puzzle.csproj", "{46554AC5-FB0B-4403-A647-FB1587A6DE20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-05_JewelsThief", "05-05_JewelsThief\05-05_JewelsThief.csproj", "{05B731A4-FE20-454D-BD00-47D90B994F70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{46554AC5-FB0B-4403-A647-FB1587A6DE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46554AC5-FB0B-4403-A647-FB1587A6DE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46554AC5-FB0B-4403-A647-FB1587A6DE20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B731A4-FE20-454D-BD00-47D90B994F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B731A4-FE20-454D-BD00-47D90B994F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B731A4-FE20-454D-BD00-47D90B994F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B731A4-FE20-454D-BD00-47D90B994F70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
