@@ -12,12 +12,14 @@ namespace _05_03_Party_Planner_2._0
 {
     public partial class Form1 : Form
     {
+        DinnerParty dinnerParty;
+        BirthdayParty birthdayParty;
         public Form1()
         {
             InitializeComponent();
         }
 
-        #region Dinner Party controls
+        #region Dinner Party Tab controls
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
 
