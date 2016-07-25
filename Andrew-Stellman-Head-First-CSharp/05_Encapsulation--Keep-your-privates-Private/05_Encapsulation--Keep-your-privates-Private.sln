@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-01_Party-Planner", "05-0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-02_Cow-calculator", "05-02_Cow-calculator\05-02_Cow-calculator.csproj", "{A7ADC876-A9C5-4801-AA1C-66D404D83DFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-03_Party-Planner-2.0", "05-03_Party-Planner-2.0\05-03_Party-Planner-2.0.csproj", "{48CE788C-38D5-4B54-AEFC-89067F5D5DC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A7ADC876-A9C5-4801-AA1C-66D404D83DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7ADC876-A9C5-4801-AA1C-66D404D83DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7ADC876-A9C5-4801-AA1C-66D404D83DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CE788C-38D5-4B54-AEFC-89067F5D5DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CE788C-38D5-4B54-AEFC-89067F5D5DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CE788C-38D5-4B54-AEFC-89067F5D5DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CE788C-38D5-4B54-AEFC-89067F5D5DC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
