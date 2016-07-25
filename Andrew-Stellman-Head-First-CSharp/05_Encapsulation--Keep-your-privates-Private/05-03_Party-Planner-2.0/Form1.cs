@@ -16,5 +16,24 @@ namespace _05_03_Party_Planner_2._0
         {
             InitializeComponent();
         }
+
+        #region Dinner Party controls
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fancyBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void healthyBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+
+
     }
 }
